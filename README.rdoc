@@ -1,5 +1,7 @@
 == README
 
+* Vagrant
+
 * ruby 2.2.0
 
 * rails 4.2.4
@@ -7,5 +9,8 @@
 * PostgreSQL
 
 * Heroku
+
+* Bootstrap
+
 
 https://rails-playground.herokuapp.com/
