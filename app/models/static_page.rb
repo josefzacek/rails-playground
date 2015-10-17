@@ -10,6 +10,7 @@
 
 class StaticPage < ActiveRecord::Base
   def self.current_time_and_date
-    Time.now
+    Time.zone = 'Dublin'
+    Time.zone.now
   end
 end
