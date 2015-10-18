@@ -6,6 +6,7 @@
 #  content    :text
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
+#  url        :string
 #
 
 class StaticPage < ActiveRecord::Base
