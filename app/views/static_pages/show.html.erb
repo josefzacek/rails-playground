@@ -1,0 +1,10 @@
+<p><%= link_to "Edit", edit_static_page_path(@page), class: "btn btn-primary" %></p>
+
+<h1><%= @page.url %></h1>
+
+<p><b>Today is:</b> <%= @time.strftime("%A, %d %b %Y") %></p>
+<p><b>Current time is:</b> <%= @time.strftime("%H:%M") %></p>
+
+<p><%= @page.content %></p>
+
+
