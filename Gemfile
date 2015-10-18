@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
-ruby "2.2.0"
-
+ruby '2.2.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
@@ -40,6 +39,9 @@ gem 'rails_12factor', group: :production
 gem 'passenger'
 
 group :development, :test do
+  gem 'better_errors'
+  gem 'binding_of_caller'
+
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 end
@@ -53,4 +55,3 @@ group :development do
 
   gem 'annotate', '~> 2.6.10'
 end
-
