@@ -11,6 +11,3 @@
 * Heroku
 
 * Bootstrap
-
-
-https://rails-playground.herokuapp.com/
